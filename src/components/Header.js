@@ -1,12 +1,16 @@
 import React from "react";
 
 export default function Header({titulo, year}) {
+
+  const style = {
+    border: '2px solid black'
+  }
   return (
-    <div className="row">
+    <div className="row" style={style}>
       <header>
-        <div className="col col-lg-6">
+        <div>
           <div className="lh-100">
-            <h1 className="mb-0 text-white lh-100">{titulo}</h1>
+            <h1>{titulo}</h1>
           </div>
         </div>
       </header>
