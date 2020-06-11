@@ -1,8 +1,9 @@
 import React from 'react'
 
-export default function Letter({ letterValue }) {
+export default function Letter({ letterValue, clickLetter }) {
     const onClickLetter = () => {
-        console.log(letterValue)
+        console.log('letter', letterValue);
+        clickLetter(letterValue);
     }
 
     return (

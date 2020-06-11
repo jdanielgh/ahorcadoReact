@@ -34,3 +34,5 @@ export const imageGameTwo = [
         name: 'one-error'
     },
 ]
+
+export const allImage = [...imagesGame, ...imageGameTwo];

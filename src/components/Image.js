@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function Image({image}) {
-    console.log(image);
     return (
         <div className='col-3'>
                 <img

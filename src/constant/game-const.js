@@ -1,7 +1,6 @@
 export const worlds = [
-    'Sandia',
-    'Elefante',
-    'Aguacate',
-    'Tortuga',
-    'Perro'
-]
+    'SANDIA',
+    'PERICO',
+    'MURCIELAGO',
+    'VOCAL',
+    'SENTADO']
