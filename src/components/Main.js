@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Result from './Result';
 import Letters from './Letters';
+import Worlds from './Worlds';
 
 export class Main extends Component {
 
@@ -18,6 +19,9 @@ export class Main extends Component {
                     <div className="row">
                         <div className="col-6"> <Result /></div>
                         <div className="col-6"> <Letters /></div>
+                    </div>
+                    <div className="row align-items-end">
+                        <Worlds/>
                     </div>
                 </div>
 

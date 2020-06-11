@@ -9,10 +9,10 @@ export default function Result() {
         <div>
             <h1>Intentos</h1>
             <div className='row'> 
-                    {images.map( ima => (<Image image={ima} /> ))}
+                    {images.map( (ima, idx) => (<Image key={idx} image={ima} /> ))}
             </div>
             <div className='row'>
-                {imagesTwo.map( ima => (<Image image={ima} /> ))}
+                {imagesTwo.map( (ima, idx) => (<Image key={idx + images.leght } image={ima} /> ))}
             </div>
         </div>
     )

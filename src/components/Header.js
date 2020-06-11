@@ -1,19 +1,14 @@
 import React from "react";
 
-export default function Header({titulo, year}) {
+export default function Header({ titulo }) {
 
-  const style = {
-    border: '2px solid black'
-  }
   return (
-    <div className="row" style={style}>
-      <header>
-        <div>
-          <div className="lh-100">
-            <h1>{titulo}</h1>
-          </div>
+    <div className="row justify-content-md-center" >
+      <div>
+        <div className="align-center">
+          <h1 className="aling-center">{titulo}</h1>
         </div>
-      </header>
-    </div>
+      </div>
+  </div>
   );
 }

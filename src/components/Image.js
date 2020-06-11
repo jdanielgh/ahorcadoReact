@@ -8,8 +8,8 @@ export default function Image({image}) {
                     className="mr-3"
                     src={image.path}
                     alt="hola"
-                    width="48"
-                    height="48"
+                    width="90"
+                    height="90"
                 />
         </div>
     )
