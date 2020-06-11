@@ -1,12 +1,16 @@
 import React from 'react'
 
-export default function Letter() {
-    const letra = React.createRef();
+export default function Letter({ letterValue }) {
+    const onClickLetter = () => {
+        console.log(letterValue)
+    }
 
     return (
         <div>
-            <div className="col-6">
-                <input ref={letra} type="number" className="form-control" required placeholder="Nombres y apellidos" />
+            <div className="col 1">
+                <button onClick={onClickLetter} type="button">
+                    {letterValue}
+                </button>
             </div>
         </div>
     )
