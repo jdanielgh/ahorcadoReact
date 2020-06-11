@@ -33,7 +33,7 @@ export class Main extends Component {
             }
             console.log(this.state);
         }
-        this.setState({ status: this.validateFinishGame() });
+        this.setState({...this.status, status: this.validateFinishGame() });
     }
 
     validateFinishGame = () => {
